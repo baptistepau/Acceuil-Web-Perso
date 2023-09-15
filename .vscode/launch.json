@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "firefox",
+            "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "d:\\Developement\\aceuilWeb\\index.html"
+            "file": "/home/baptistep/shared-drives/D:/Developement/aceuilWeb/index.html"
         }
     ]
 }
