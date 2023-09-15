@@ -1,7 +1,7 @@
 body 
 {
   background-image: url("image/fond.jpeg");
-  display: flex;
+  display: flexbox;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -9,12 +9,12 @@ body
   
 form 
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    max-width: 1000px;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 1000px;
+  width: 100%;
 }
   
 
@@ -32,12 +32,11 @@ input[type="text"]
 .corner
 {
   background-color: hsla(0, 0%, 0%, 0.200);
-  height: 98%;
-  width: 25%;
+  height: 25%;
+  width: 98%; 
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Pour centrer verticalement */
   align-items: center;
-  flex-direction: column; 
   margin: auto;
 }
 
@@ -48,6 +47,7 @@ input[type="text"]
   border-radius: 25%;
   border: none;
   position: relative;
+  margin: 40px;
 }
 .corner button img{
   width: 50px;
