@@ -1,12 +1,12 @@
 body 
 {
   background-image: url("image/fond.jpeg");
-  display: flexbox;
+  background-repeat: no-repeat;
+  background-size:100%;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
 }
-  
 form 
 {
   display: flex;
