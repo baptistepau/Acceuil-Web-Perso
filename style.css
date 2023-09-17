@@ -40,7 +40,7 @@ input[type="text"]
   margin: auto;
 }
 
-.corner button
+button
 {
   width: 50px;
   height: 50px;
@@ -49,11 +49,25 @@ input[type="text"]
   position: relative;
   margin: 40px;
 }
-.corner button img{
+button img{
   width: 50px;
   height: 50px;
   border-radius: 25%;
   position: absolute; 
   top: 0;
   left: 0;
+}
+
+.cornerRecheche{
+  position: absolute;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  align-items: center;
+  height: 65%;
+  width: 98%; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: hsla(0, 0%, 0%, 0.040);;
 }
