@@ -1,6 +1,7 @@
 body 
 {
   background-image: url("image/fond.jpeg");
+  background-color: black;
   background-repeat: no-repeat;
   background-size:100%;
   justify-content: center;
@@ -9,7 +10,7 @@ body
 }
 
 .fondMain{
-  background-color: hsla(0, 0%, 0%, 0.600);
+  background-color: hsla(0, 0%, 0%, 0.100);
   height: 80%;
   width: 100%;
   align-items: center;
@@ -17,7 +18,7 @@ body
 
 .fondBottom
 {
-  background-color: hsla(0, 0%, 100%, 0.400);
+  background-color: hsla(0, 0%, 0%, 0.400);
   height: 20%;
   width: 100%;
   align-items: center;
