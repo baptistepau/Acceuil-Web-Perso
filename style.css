@@ -16,7 +16,7 @@ form
   max-width: 1000px;
   width: 100%;
 }
-  
+/*
 input[type="reset"] 
 {
   border: none;
@@ -36,12 +36,24 @@ input[type="text"]
   width: 70%;
 }
 
-
+*/
+.fondMain{
+  background-color: hsla(0, 0%, 0%, 0.600);
+  height: 80%;
+  width: 100%;
+  align-items: center;
+}
+.fondBottom
+{
+  background-color: hsla(0, 0%, 100%, 0.400);
+  height: 20%;
+  width: 100%;
+  align-items: center;
+}
 .corner
 {
-  background-color: hsla(0, 0%, 0%, 0.200);
   height: 25%;
-  width: 98%; 
+  width: 90%; 
   display: flex;
   justify-content: center; /* Pour centrer verticalement */
   align-items: center;
@@ -50,17 +62,17 @@ input[type="text"]
 
 button
 {
-  width: 50px;
-  height: 50px;
-  border-radius: 25%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   border: none;
   position: relative;
-  margin: 40px;
+  margin: 80px;
 }
 button img{
-  width: 50px;
-  height: 50px;
-  border-radius: 25%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   position: absolute; 
   top: 0;
   left: 0;
